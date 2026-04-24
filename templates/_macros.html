@@ -1,0 +1,35 @@
+{% macro render_node(node, depth=2, group_name="top") %}
+    {% set d = depth %}
+    {% if d > 8 %}
+        {% set d = 8 %}
+    {% endif %}
+
+    <details name="{{ group_name }}">
+        <summary>
+            <h{{ d }} id="{{ node.label | slugify }}"">{{ node.label }}</h{{ d }}>
+        </summary>
+        <div class="details-body">
+        {% set links_html = self::set_links(node=node) %}
+        {% if links_html | trim | length > 0 %}
+            <ul>
+                {{ links_html | safe }}
+            </ul>
+        {% endif %}
+        {% set child_group_name = node.label | slugify %}
+
+        {% for child in node.children %}
+            {% if child.children %}
+                {{ self::render_node(node=child, depth=d+d+d, group_name=child_group_name) }}
+            {% endif %}
+        {% endfor %}
+        </div>
+    </details>
+{% endmacro render_node %}
+
+{% macro set_links(node) %}
+    {% for child in node.children %}
+        {% if child.url %}
+            <li><a href="{{ child.url }}">{{ child.label }}</a></li>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}

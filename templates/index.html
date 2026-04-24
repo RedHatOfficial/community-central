@@ -1,0 +1,70 @@
+{% import "_macros.html" as macros %}
+<!doctype html>
+<html lang="en">
+<head>
+    {% set cdn_base_url = "https://www.redhatstatic.com/dssf-001/v2/" %}
+
+    {% include "partials/_head.html" %}
+</head>
+<body>
+<div id="top"></div>
+<header>
+    {% include "partials/_nav.html" %}
+</header>
+<div id="wrap">
+    {% include "partials/_hero.html" %}
+
+    <main id="projects">
+        <div class="container">
+<!--            {% block toc %}-->
+<!--            {% if section.toc %}-->
+<!--            {% set toc = section.toc %}-->
+<!--            {% elif page.toc %}-->
+<!--            {% set toc = page.toc %}-->
+<!--            {% endif %}-->
+<!--            {% if toc %}-->
+<!--            <div class="toc">-->
+<!--                <div class="toc-sticky">-->
+<!--                    {% for h in toc %}-->
+<!--                    <div class="toc-item">-->
+<!--                        <a class="subtext" href="{{h.permalink | safe}}">{{ h.title }}</a>-->
+<!--                    </div>-->
+<!--                    {% if h.children %}-->
+<!--                    {% for h2 in h.children %}-->
+<!--                    <div class="toc-item-child">-->
+<!--                        <a class="subtext"-->
+<!--                           href="{{h2.permalink | safe}}"><small>- {{ h2.title }}</small></a>-->
+<!--                    </div>-->
+<!--                    {% endfor %}-->
+<!--                    {% endif %}-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            {% endif %}-->
+<!--            {% endblock toc %}-->
+            <section>
+              {{ section.content | safe }}
+            </section>
+            <section>
+                <h2>Upstreams</h2>
+                <div class="grid sm-one-columns md-two-columns upstream-links">
+                    {% set upstreams = load_data(path="data/data.json") %}
+                        {% for item in upstreams %}
+                        <rh-card id="{{ item.label | slugify }}">
+                            {{ self::render_node(node=item, depth=2) }}
+                        </rh-card>
+                        {% endfor %}
+                </div>
+            </section>
+        </div>
+    </main>
+</div>
+
+{% include "partials/_footer.html" %}
+
+<script src="/js/page.js"></script>
+<script src="/js/table-search.js"></script>
+<script src="/js/rht-picture.js"></script>
+
+</body>
+</html>

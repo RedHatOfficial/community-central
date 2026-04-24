@@ -1,0 +1,1017 @@
+[
+  {
+    "label": "Linux and RHEL",
+    "children": [
+      {
+        "label": "Fedora",
+        "children": [
+          {
+            "label": "Download Fedora Linux 44! (after April 28th)",
+            "url": "https://fedoraproject.org/"
+          },
+          {
+            "label": "Fedora Atomic Desktops",
+            "url": "https://fedoraproject.org/atomic-desktops/"
+          },
+          {
+            "label": "Fedora AI/ML SIG",
+            "url": "https://docs.fedoraproject.org/en-US/ai/"
+          }
+        ]
+      },
+      {
+        "label": "CentOS",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://centos.org/"
+          },
+          {
+            "label": "Blog",
+            "url": "https://blog.centos.org/"
+          },
+          {
+            "label": "Special Interest Groups",
+            "url": "https://centos.org/sigs/"
+          },
+          {
+            "label": "CentOS Connect",
+            "url": "https://www.centos.org/events/connect/"
+          }
+        ]
+      },
+      {
+        "label": "bootc (Image Mode)",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://bootc.dev"
+          },
+          {
+            "label": "GitHub",
+            "url": "https://github.com/bootc-dev/bootc"
+          },
+          {
+            "label": "Docs",
+            "url": "https://bootc-dev.github.io/bootc/"
+          },
+          {
+            "label": "Contribute",
+            "url": "https://github.com/bootc-dev/bootc/blob/main/CONTRIBUTING.md"
+          },
+          {
+            "label": "YouTube",
+            "url": "http://www.youtube.com/@CNCF-bootc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Cloud Native",
+    "children": [
+      {
+        "label": "CNCF",
+        "children": [
+          {
+            "label": "Graduated and Incubating",
+            "url": "https://www.cncf.io/projects/"
+          },
+          {
+            "label": "Sandbox",
+            "url": "https://www.cncf.io/sandbox-projects/"
+          },
+          {
+            "label": "Landscape",
+            "url": "https://landscape.cncf.io/"
+          }
+        ]
+      },
+      {
+        "label": "Kubernetes and OKD",
+        "children": [
+          {
+            "label": "Kubernetes",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://kubernetes.io/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/kubernetes"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://www.kubernetes.dev/"
+              }
+            ]
+          },
+          {
+            "label": "OKD",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://okd.io/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/okd-project"
+              },
+              {
+                "label": "Docs",
+                "url": "https://okd.io/docs/documentation/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://okd.io/docs/community/charter"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Virtualization",
+        "children": [
+          {
+            "label": "KubeVirt",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://kubevirt.io/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/kubevirt/kubevirt"
+              },
+              {
+                "label": "Docs",
+                "url": "https://kubevirt.io/user-guide/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://kubevirt.io/community/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Developer Tools and Productivity",
+        "children": [
+          {
+            "label": "Backstage",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://backstage.io/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/backstage/backstage"
+              },
+              {
+                "label": "Docs",
+                "url": "https://backstage.io/docs/overview/what-is-backstage"
+              },
+              {
+                "label": "Community",
+                "url": "https://backstage.io/community"
+              }
+            ]
+          },
+          {
+            "label": "Podman",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://podman.io/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/containers/"
+              },
+              {
+                "label": "Docs",
+                "url": "https://podman.io/docs"
+              },
+              {
+                "label": "Community",
+                "url": "https://podman.io/community"
+              }
+            ]
+          },
+          {
+            "label": "Podman Desktop",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://podman-desktop.io/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/podman-desktop/podman-desktop"
+              },
+              {
+                "label": "Docs",
+                "url": "https://podman-desktop.io/docs/intro"
+              },
+              {
+                "label": "Community",
+                "url": "https://podman-desktop.io/community"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Open Source AI",
+    "children": [
+      {
+        "label": "PyTorch",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://pytorch.org/projects/pytorch/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/pytorch/pytorch"
+          },
+          {
+            "label": "Docs",
+            "url": "https://docs.pytorch.org/docs/stable/index.html"
+          },
+          {
+            "label": "Community",
+            "url": "https://pytorch.org/community-hub/"
+          }
+        ]
+      },
+      {
+        "label": "vLLM",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://vllm.ai/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/vllm-project/vllm"
+          },
+          {
+            "label": "Docs",
+            "url": "https://docs.vllm.ai/en/stable/"
+          },
+          {
+            "label": "Community",
+            "url": "https://vllm.ai/#community"
+          }
+        ]
+      },
+      {
+        "label": "KServe",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://kserve.github.io/website/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/kserve/kserve"
+          },
+          {
+            "label": "Docs",
+            "url": "https://kserve.github.io/website/docs/intro"
+          },
+          {
+            "label": "Community",
+            "url": "https://kserve.github.io/website/docs/community/get-involved"
+          }
+        ]
+      },
+      {
+        "label": "KubeFlow",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://www.kubeflow.org/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/kubeflow/"
+          },
+          {
+            "label": "Docs",
+            "url": "https://www.kubeflow.org/docs/"
+          },
+          {
+            "label": "Community",
+            "url": "https://www.kubeflow.org/docs/about/community/"
+          }
+        ]
+      },
+      {
+        "label": "Ray",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://www.ray.io/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/ray-project/ray"
+          },
+          {
+            "label": "Docs",
+            "url": "https://docs.ray.io/en/latest/index.html"
+          }
+        ]
+      },
+      {
+        "label": "MLFlow",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://mlflow.org/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/mlflow/mlflow"
+          },
+          {
+            "label": "Training Docs",
+            "url": "https://mlflow.org/docs/latest/ml/"
+          },
+          {
+            "label": "Agent Docs",
+            "url": "https://mlflow.org/docs/latest/genai/"
+          }
+        ]
+      },
+      {
+        "label": "Docling",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://www.docling.ai/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/docling-project/docling"
+          },
+          {
+            "label": "Docs",
+            "url": "https://docling-project.github.io/docling/"
+          },
+          {
+            "label": "Community",
+            "url": "https://discord.com/invite/SURXYJg7"
+          }
+        ]
+      },
+      {
+        "label": "LlamaStack (Soon to be renamed)",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://llamastack.github.io/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/llamastack/llama-stack"
+          },
+          {
+            "label": "Docs",
+            "url": "https://llamastack.github.io/docs"
+          },
+          {
+            "label": "Community",
+            "url": "https://discord.com/invite/llama-stack"
+          }
+        ]
+      },
+      {
+        "label": "Jupyter",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://jupyter.org/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/jupyter/"
+          },
+          {
+            "label": "Docs",
+            "url": "https://jupyter-notebook.readthedocs.io/en/stable/"
+          },
+          {
+            "label": "Community",
+            "url": "https://jupyter.org/social"
+          }
+        ]
+      },
+      {
+        "label": "Helion",
+        "children": [
+          {
+            "label": "Github",
+            "url": "https://github.com/pytorch/helion"
+          },
+          {
+            "label": "Docs",
+            "url": "https://helionlang.com/"
+          }
+        ]
+      },
+      {
+        "label": "OpenClaw",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://openclaw.ai/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/openclaw/openclaw"
+          },
+          {
+            "label": "Docs",
+            "url": "https://docs.openclaw.ai/start/getting-started"
+          },
+          {
+            "label": "Community",
+            "url": "https://discord.com/invite/clawd"
+          }
+        ]
+      },
+      {
+        "label": "OpenShell",
+        "children": [
+          {
+            "label": "Github",
+            "url": "https://github.com/NVIDIA/OpenShell"
+          },
+          {
+            "label": "Docs",
+            "url": "https://docs.nvidia.com/openshell/latest/home"
+          }
+        ]
+      },
+      {
+        "label": "Synthetic Data Generation (SDG) Hub",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://ai-innovation.team/sdg_hub/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/Red-Hat-AI-Innovation-Team/sdg_hub"
+          },
+          {
+            "label": "Docs",
+            "url": "https://ai-innovation.team/sdg_hub/docs/"
+          }
+        ]
+      },
+      {
+        "label": "EvalHub",
+        "children": [
+          {
+            "label": "Github",
+            "url": "https://github.com/eval-hub/eval-hub"
+          },
+          {
+            "label": "Docs",
+            "url": "https://eval-hub.github.io/eval-hub/"
+          },
+          {
+            "label": "Community",
+            "url": "https://github.com/eval-hub/eval-hub/blob/main/CONTRIBUTING.md"
+          }
+        ]
+      },
+      {
+        "label": "GuideLLM",
+        "children": [
+          {
+            "label": "Github",
+            "url": "https://github.com/vllm-project/guidellm"
+          },
+          {
+            "label": "Docs",
+            "url": "https://github.com/vllm-project/guidellm#documentation"
+          },
+          {
+            "label": "Community",
+            "url": "https://github.com/vllm-project/guidellm#development-and-contribution"
+          }
+        ]
+      },
+      {
+        "label": "vLLM Semantic Router",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://vllm-semantic-router.com/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/vllm-project/semantic-router"
+          },
+          {
+            "label": "Docs",
+            "url": "https://vllm-semantic-router.com/docs/intro"
+          },
+          {
+            "label": "Community",
+            "url": "https://vllm-semantic-router.com/community/contributing"
+          }
+        ]
+      },
+      {
+        "label": "TrustyAI",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://trustyai.org/docs/main/main"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/trustyai-explainability"
+          },
+          {
+            "label": "Docs",
+            "url": "https://github.com/trustyai-explainability#documentation"
+          },
+          {
+            "label": "Community",
+            "url": "https://github.com/trustyai-explainability#-join-us-"
+          }
+        ]
+      },
+      {
+        "label": "TrainingHub",
+        "children": [
+          {
+            "label": "Github",
+            "url": "https://github.com/Red-Hat-AI-Innovation-Team/training_hub"
+          },
+          {
+            "label": "Docs",
+            "url": "https://ai-innovation.team/training_hub/#/"
+          }
+        ]
+      },
+      {
+        "label": "Ramalama",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://ramalama.ai/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/containers/ramalama"
+          },
+          {
+            "label": "Docs",
+            "url": "https://ramalama.ai/docs/introduction/"
+          },
+          {
+            "label": "Community",
+            "url": "https://matrix.to/#/#ramalama:fedoraproject.org"
+          }
+        ]
+      },
+      {
+        "label": "Feast",
+        "children": [
+          {
+            "label": "Home",
+            "url": "https://feast.dev/"
+          },
+          {
+            "label": "Github",
+            "url": "https://github.com/feast-dev/feast"
+          },
+          {
+            "label": "Docs",
+            "url": "https://docs.feast.dev/"
+          },
+          {
+            "label": "Community",
+            "url": "https://feastopensource.slack.com/join/shared_invite/zt-1ceh2v8r9-osdDRsyWW~0BOvCTOxUCvg#/shared-invite/email"
+          }
+        ]
+      },
+      {
+        "label": "Foundations",
+        "children": [
+          {
+            "label": "PyTorch Foundation",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://pytorch.org/foundation/"
+              },
+              {
+                "label": "Projects",
+                "url": "https://pytorch.org/projects/"
+              },
+              {
+                "label": "Ecosystem",
+                "url": "https://landscape.pytorch.org/"
+              }
+            ]
+          },
+          {
+            "label": "Agentic AI Foundation",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://aaif.io/"
+              },
+              {
+                "label": "Projects",
+                "url": "https://github.com/aaif"
+              }
+            ]
+          },
+          {
+            "label": "LF AI & Data",
+            "children": [
+              {
+                "label": "Home",
+                "url": "https://lfaidata.foundation/"
+              },
+              {
+                "label": "Projects",
+                "url": "https://lfaidata.foundation/projects/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "llm-d",
+    "children": [
+      {
+        "label": "Home",
+        "url": "https://llm-d.ai/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/llm-d/llm-d"
+      },
+      {
+        "label": "Docs",
+        "url": "https://llm-d.ai/docs/guide"
+      },
+      {
+        "label": "Contribute",
+        "url": "https://llm-d.ai/docs/community"
+      }
+    ]
+  },
+  {
+    "label": "Security & Sovereignty",
+    "children": [
+      {
+        "label": "Confidential Computing",
+        "children": [
+          {
+            "label": "What’s Confidential Computing and Use Cases",
+            "url": "https://drive.google.com/file/d/13Pdz2x8mvkjkhxT6nyk8iZdovcN8KNyo/view"
+          },
+          {
+            "label": "Confidential Containers",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/confidential-containers"
+              },
+              {
+                "label": "Docs",
+                "url": "https://confidentialcontainers.org/docs/getting-started/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/confidential-containers/confidential-containers/?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "Coconut-SVSM",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/coconut-svsm"
+              },
+              {
+                "label": "Docs",
+                "url": "https://github.com/coconut-svsm/svsm/blob/main/Documentation/docs/index.md"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/coconut-svsm/governance#communication-channels"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Identity Management",
+        "children": [
+          {
+            "label": "SPIRE",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/spiffe/spire"
+              },
+              {
+                "label": "Docs",
+                "url": "https://github.com/spiffe/spire/blob/main/doc/SPIRE101.md"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/spiffe/spire?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "Keycloak",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/keycloak/keycloak"
+              },
+              {
+                "label": "Docs",
+                "url": "https://www.keycloak.org/documentation.html"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/keycloak/keycloak?tab=contributing-ov-file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Cloud & Development Security",
+        "children": [
+          {
+            "label": "GUAC",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/guacsec/guac"
+              },
+              {
+                "label": "Docs",
+                "url": "https://docs.guac.sh/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/guacsec/guac?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "Sigstore",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/sigstore"
+              },
+              {
+                "label": "Docs",
+                "url": "https://docs.sigstore.dev/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://www.sigstore.dev/community"
+              }
+            ]
+          },
+          {
+            "label": "OSPS",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/ossf/security-baseline"
+              },
+              {
+                "label": "Specs",
+                "url": "https://baseline.openssf.org/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/ossf/security-baseline?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "StackRox",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/stackrox/stackrox"
+              },
+              {
+                "label": "Docs",
+                "url": "https://github.com/stackrox/stackrox?tab=readme-ov-file#deploying-stackrox"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/stackrox/stackrox?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "Konflux",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/konflux-ci"
+              },
+              {
+                "label": "Docs",
+                "url": "https://konflux-ci.dev/konflux-ci/docs/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/konflux-ci/community"
+              }
+            ]
+          },
+          {
+            "label": "SLSA",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/slsa-framework/slsa"
+              },
+              {
+                "label": "Specs",
+                "url": "https://slsa.dev/spec/v1.2/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/slsa-framework/slsa?tab=contributing-ov-file"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Compliance, Policy & Sovereignty",
+        "children": [
+          {
+            "label": "Gemara",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/gemaraproj/gemara"
+              },
+              {
+                "label": "Docs",
+                "url": "https://github.com/gemaraproj/gemara/blob/main/docs/index.md"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/gemaraproj/gemara?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "OpenSSF Global Cyber Policy",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/ossf/wg-globalcyberpolicy"
+              },
+              {
+                "label": "Learn about the European Union Cyber Resiliency Act",
+                "url": "https://openssf.org/public-policy/eu-cyber-resilience-act/"
+              },
+              {
+                "label": "CRA Obligations Checklist",
+                "url": "https://policy.openssf.org/CRA/checklists/PSIRT_Obligations_Checklist.html"
+              },
+              {
+                "label": "CRA Readiness Guide for Maintainers and Developers",
+                "url": "https://policy.openssf.org/CRA/maintainers.html"
+              },
+              {
+                "label": "Take a free CRA Course",
+                "url": "https://training.linuxfoundation.org/express-learning/understanding-the-eu-cyber-resilience-act-cra-lfel1001/"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/ossf/wg-globalcyberpolicy/?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "ComplyTime",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/complytime"
+              },
+              {
+                "label": "Docs",
+                "url": "https://github.com/complytime/complyctl/blob/main/docs/QUICK_START.md"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/complytime/community?tab=contributing-ov-file"
+              }
+            ]
+          },
+          {
+            "label": "Eclipse Open Regulatory Compliance",
+            "children": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/orcwg"
+              },
+              {
+                "label": "The European Union Cyber Resiliency Act FAQ",
+                "url": "https://cra.orcwg.org/faq/"
+              },
+              {
+                "label": "Open Source Software Steward Guide",
+                "url": "https://github.com/orcwg/orcwg/blob/main/cyber-resilience-sig/whitepapers/stewards-and-cra.pdf"
+              },
+              {
+                "label": "Contribute",
+                "url": "https://github.com/orcwg/orcwg#get-involved"
+              }
+            ]
+          },
+          {
+            "label": "Digital Sovereignty",
+            "children": [
+              {
+                "label": "Digital Sovereignty Readiness Assessment",
+                "children": [
+                  {
+                    "label": "GitHub",
+                    "url": "https://github.com/redhat-cop/viewfinder-upstream/tree/master"
+                  },
+                  {
+                    "label": "Evaluate your Sovereignty Readiness Assessment",
+                    "url": "https://www.feedback.redhat.com/jfe/form/SV_1LGSam42lrM4Ddk"
+                  }
+                ]
+              },
+              {
+                "label": "Open Is Sovereign Blog",
+                "url": "https://linuxfoundation.eu/digital-sovereignty"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "RISC-V",
+    "children": [
+      {
+        "label": "RISC-V International",
+        "url": "https://riscv.org/"
+      },
+      {
+        "label": "RISE Project",
+        "url": "https://riseproject.dev/"
+      },
+      {
+        "label": "Fedora-V Force",
+        "url": "https://www.fedoravforce.org/"
+      },
+      {
+        "label": "Fedora RISC-V SIG",
+        "url": "https://forge.fedoraproject.org/riscv"
+      },
+      {
+        "label": "CentOS for RISC-V",
+        "url": "https://blog.centos.org/2025/05/centos-for-risc-v-now-available/"
+      },
+      {
+        "label": "Hardware demo providers",
+        "url": "https://nimbinatus.com/open-hardware-demos/"
+      }
+    ]
+  }
+]

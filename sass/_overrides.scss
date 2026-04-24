@@ -1,0 +1,93 @@
+rh-card {
+  box-shadow: 3px 3px 3px 3px var(--rh-color-gray-30);
+  padding: 20px;
+}
+
+.top-cards {
+  div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+  .button-link {
+    border-radius: 10px;
+    color: #ffffff !important;
+    padding: 1em 1.5em;
+    text-decoration: none !important;
+    transition: revert !important;
+  }
+  .primary {
+    background: var(--rh-color-brand-red);
+    &:hover {
+      background: var(--rh-color-brand-red);
+      cursor: pointer;
+    }
+    &:active {
+      background: var(--rh-color-brand-red);
+    }
+    &:visited {
+      background: var(--rh-color-brand-red);
+    }
+  }
+  .secondary {
+    background: var(--rh-color-interactive-secondary-default);
+    &:hover {
+      background: var(--rh-color-interactive-secondary-hover);
+      cursor: pointer;
+    }
+    &:active {
+      background: var(--rh-color-interactive-secondary-active);
+    }
+    &:visited {
+      background: var(--rh-color-interactive-secondary-visited);
+    }
+  }
+}
+
+.upstream-links {
+  details {
+
+    > summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      /* Hide the default arrow specifically for Safari/WebKit */
+      &::-webkit-details-marker {
+        display: none;
+      }
+
+      /* Add the big plus sign to the closed state */
+      &::before {
+        content: '+';
+        font-size: 1.5em;
+        font-weight: bold;
+        line-height: 1;
+        width: 1.5rem;
+        text-align: center;
+        margin-right: 0.5rem;
+        color: #cc0000; /* Optional: Replace with your brand's variable */
+      }
+
+      /* Strip default margins from nested headings so flexbox aligns them perfectly */
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        padding: 0.5rem 0;
+      }
+    }
+
+    /* Swap to a minus sign when the details block is open */
+    &[open] > summary::before {
+      content: '−'; /* Note: This is a true minus sign (U+2212) */
+    }
+  }
+}
+
+header {
+  background: #ffffff;
+  position: sticky;
+  top: 0px;
+}

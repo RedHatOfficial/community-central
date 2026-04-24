@@ -1,0 +1,24 @@
+# The URL the site will be built for
+base_url = "https://redhatofficial.github.io/community-central/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+default_language = "en"
+
+title = "Community Central at Red Hat Summit 2026"
+
+[markdown]
+external_links_target_blank = true
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+nav_menu = [
+    { label = "Back to Top", href = "#top", external = false },
+]
