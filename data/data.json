@@ -373,23 +373,23 @@
         ]
       },
       {
-        "label": "LlamaStack (Soon to be renamed)",
+        "label": "OGX (formerly LlamaStack)",
         "children": [
           {
             "label": "Home",
-            "url": "https://llamastack.github.io/"
+            "url": "https://ogx-ai.github.io/"
           },
           {
             "label": "Github",
-            "url": "https://github.com/llamastack/llama-stack"
+            "url": "https://github.com/ogx-ai/ogx"
           },
           {
             "label": "Docs",
-            "url": "https://llamastack.github.io/docs"
+            "url": "https://ogx-ai.github.io/docs"
           },
           {
             "label": "Community",
-            "url": "https://discord.com/invite/llama-stack"
+            "url": "https://discord.com/invite/ZAFjsrcw"
           }
         ]
       },
