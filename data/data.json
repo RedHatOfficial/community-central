@@ -4,6 +4,7 @@
     "children": [
       {
         "label": "Fedora",
+        "description": "A community-driven Linux distribution sponsored by Red Hat, serving as the upstream for RHEL.",
         "children": [
           {
             "label": "Download Fedora Linux 44! (after April 28th)",
@@ -21,6 +22,7 @@
       },
       {
         "label": "CentOS",
+        "description": "A community-supported distribution derived from RHEL sources, offering CentOS Stream as a continuously delivered preview of the next RHEL release.",
         "children": [
           {
             "label": "Home",
@@ -42,6 +44,7 @@
       },
       {
         "label": "bootc (Image Mode)",
+        "description": "A tool for bootable container images, enabling immutable, image-based Linux systems managed via OCI containers.",
         "children": [
           {
             "label": "Home",
@@ -72,6 +75,7 @@
     "children": [
       {
         "label": "CNCF",
+        "description": "The Cloud Native Computing Foundation hosts critical cloud-native projects like Kubernetes, Prometheus, and Envoy.",
         "children": [
           {
             "label": "Graduated and Incubating",
@@ -89,9 +93,11 @@
       },
       {
         "label": "Kubernetes and OKD",
+        "description": "Container orchestration platforms — Kubernetes for general workloads and OKD as the community distribution of OpenShift.",
         "children": [
           {
             "label": "Kubernetes",
+            "description": "An open-source container orchestration platform for automating deployment, scaling, and management of containerized applications.",
             "children": [
               {
                 "label": "Home",
@@ -109,6 +115,7 @@
           },
           {
             "label": "OKD",
+            "description": "The community distribution of Kubernetes that powers OpenShift, with built-in CI/CD, monitoring, and developer tooling.",
             "children": [
               {
                 "label": "Home",
@@ -132,9 +139,11 @@
       },
       {
         "label": "Virtualization",
+        "description": "Projects enabling virtual machine management on Kubernetes infrastructure.",
         "children": [
           {
             "label": "KubeVirt",
+            "description": "A Kubernetes add-on for running virtual machines alongside containers on the same cluster infrastructure.",
             "children": [
               {
                 "label": "Home",
@@ -156,6 +165,7 @@
           },
           {
             "label": "Forklift",
+            "description": "A migration toolkit for importing virtual machines from VMware, oVirt, and other platforms into KubeVirt.",
             "children": [
               {
                 "label": "Docs",
@@ -171,9 +181,11 @@
       },
       {
         "label": "Developer Tools and Productivity",
+        "description": "Tools and platforms that improve developer workflows, application building, and container management.",
         "children": [
           {
             "label": "Backstage",
+            "description": "An open-source platform for building developer portals, providing a unified front-end for infrastructure tooling and services.",
             "children": [
               {
                 "label": "Home",
@@ -195,6 +207,7 @@
           },
           {
             "label": "Podman",
+            "description": "A daemonless container engine for developing, managing, and running OCI containers on Linux systems.",
             "children": [
               {
                 "label": "Home",
@@ -216,6 +229,7 @@
           },
           {
             "label": "Podman Desktop",
+            "description": "A graphical desktop application for managing containers and Kubernetes pods from a single interface.",
             "children": [
               {
                 "label": "Home",
@@ -244,6 +258,7 @@
     "children": [
       {
         "label": "PyTorch",
+        "description": "An open-source machine learning framework for building and training deep neural networks with dynamic computation graphs.",
         "children": [
           {
             "label": "Home",
@@ -265,6 +280,7 @@
       },
       {
         "label": "vLLM",
+        "description": "A high-throughput, memory-efficient inference and serving engine for large language models.",
         "children": [
           {
             "label": "Home",
@@ -286,6 +302,7 @@
       },
       {
         "label": "KServe",
+        "description": "A Kubernetes-native platform for serving, scaling, and managing machine learning models in production.",
         "children": [
           {
             "label": "Home",
@@ -307,6 +324,7 @@
       },
       {
         "label": "KubeFlow",
+        "description": "An ML toolkit for Kubernetes that simplifies deploying, orchestrating, and managing machine learning workflows.",
         "children": [
           {
             "label": "Home",
@@ -328,6 +346,7 @@
       },
       {
         "label": "Ray",
+        "description": "A unified framework for scaling AI and Python workloads, including distributed training, tuning, and serving.",
         "children": [
           {
             "label": "Home",
@@ -345,6 +364,7 @@
       },
       {
         "label": "MLFlow",
+        "description": "An open-source platform for managing the end-to-end machine learning lifecycle, including experiment tracking and model deployment.",
         "children": [
           {
             "label": "Home",
@@ -366,6 +386,7 @@
       },
       {
         "label": "Docling",
+        "description": "A document understanding toolkit that converts PDFs and other documents into structured, AI-ready formats.",
         "children": [
           {
             "label": "Home",
@@ -387,6 +408,7 @@
       },
       {
         "label": "OGX (formerly LlamaStack)",
+        "description": "A standardized set of APIs and tooling for building and deploying generative AI applications with Llama models.",
         "children": [
           {
             "label": "Home",
@@ -408,6 +430,7 @@
       },
       {
         "label": "Jupyter",
+        "description": "An interactive computing platform providing web-based notebooks for code, data visualization, and narrative text.",
         "children": [
           {
             "label": "Home",
@@ -429,6 +452,7 @@
       },
       {
         "label": "Helion",
+        "description": "A Python-based GPU programming language from PyTorch that simplifies writing high-performance GPU kernels.",
         "children": [
           {
             "label": "Github",
@@ -442,6 +466,7 @@
       },
       {
         "label": "OpenClaw",
+        "description": "An open-source framework for building, training, and deploying robotic manipulation agents.",
         "children": [
           {
             "label": "Home",
@@ -463,6 +488,7 @@
       },
       {
         "label": "OpenShell",
+        "description": "An NVIDIA project providing open-source shell tooling for AI infrastructure management.",
         "children": [
           {
             "label": "Github",
@@ -476,6 +502,7 @@
       },
       {
         "label": "Synthetic Data Generation (SDG) Hub",
+        "description": "A centralized hub for tools and pipelines to generate high-quality synthetic training data for AI models.",
         "children": [
           {
             "label": "Home",
@@ -493,6 +520,7 @@
       },
       {
         "label": "EvalHub",
+        "description": "An evaluation framework for benchmarking and assessing AI model quality across tasks and datasets.",
         "children": [
           {
             "label": "Github",
@@ -510,6 +538,7 @@
       },
       {
         "label": "GuideLLM",
+        "description": "A benchmarking tool for evaluating and optimizing the performance of LLM inference deployments.",
         "children": [
           {
             "label": "Github",
@@ -527,6 +556,7 @@
       },
       {
         "label": "vLLM Semantic Router",
+        "description": "A routing layer for directing LLM requests to appropriate models or endpoints based on semantic understanding.",
         "children": [
           {
             "label": "Home",
@@ -548,6 +578,7 @@
       },
       {
         "label": "TrustyAI",
+        "description": "A toolkit for AI explainability, fairness monitoring, and trustworthiness evaluation of machine learning models.",
         "children": [
           {
             "label": "Home",
@@ -569,6 +600,7 @@
       },
       {
         "label": "TrainingHub",
+        "description": "A platform for managing and orchestrating distributed model training jobs at scale.",
         "children": [
           {
             "label": "Github",
@@ -582,6 +614,7 @@
       },
       {
         "label": "Ramalama",
+        "description": "A tool for running AI models locally as containers using Podman, simplifying local LLM experimentation.",
         "children": [
           {
             "label": "Home",
@@ -603,6 +636,7 @@
       },
       {
         "label": "Feast",
+        "description": "An open-source feature store for machine learning that manages and serves features for training and inference.",
         "children": [
           {
             "label": "Home",
@@ -624,9 +658,11 @@
       },
       {
         "label": "Foundations",
+        "description": "Industry foundations that govern and promote open-source AI projects and ecosystems.",
         "children": [
           {
             "label": "PyTorch Foundation",
+            "description": "A Linux Foundation project that stewards the PyTorch ecosystem and its community.",
             "children": [
               {
                 "label": "Home",
@@ -644,6 +680,7 @@
           },
           {
             "label": "Agentic AI Foundation",
+            "description": "A foundation focused on advancing open standards and tooling for autonomous AI agent development.",
             "children": [
               {
                 "label": "Home",
@@ -657,6 +694,7 @@
           },
           {
             "label": "LF AI & Data",
+            "description": "A Linux Foundation umbrella supporting open-source AI, ML, deep learning, and data projects.",
             "children": [
               {
                 "label": "Home",
@@ -698,6 +736,7 @@
     "children": [
       {
         "label": "Confidential Computing",
+        "description": "Technologies that protect data in use by performing computation in hardware-based trusted execution environments.",
         "children": [
           {
             "label": "What’s Confidential Computing and Use Cases",
@@ -705,6 +744,7 @@
           },
           {
             "label": "Confidential Containers",
+            "description": "A CNCF sandbox project enabling confidential computing at the container level on Kubernetes.",
             "children": [
               {
                 "label": "GitHub",
@@ -722,6 +762,7 @@
           },
           {
             "label": "Coconut-SVSM",
+            "description": "A Secure VM Service Module providing firmware-level services for confidential virtual machines.",
             "children": [
               {
                 "label": "GitHub",
@@ -741,9 +782,11 @@
       },
       {
         "label": "Identity Management",
+        "description": "Projects for identity verification, authentication, and workload identity in cloud-native environments.",
         "children": [
           {
             "label": "SPIRE",
+            "description": "The SPIFFE Runtime Environment, providing workload identity and attestation for distributed systems.",
             "children": [
               {
                 "label": "GitHub",
@@ -761,6 +804,7 @@
           },
           {
             "label": "Keycloak",
+            "description": "An open-source identity and access management solution offering SSO, user federation, and social login.",
             "children": [
               {
                 "label": "GitHub",
@@ -780,9 +824,11 @@
       },
       {
         "label": "Cloud & Development Security",
+        "description": "Tools for securing cloud-native development pipelines, supply chains, and runtime environments.",
         "children": [
           {
             "label": "GUAC",
+            "description": "Graph for Understanding Artifact Composition — aggregates software supply chain metadata into a queryable graph.",
             "children": [
               {
                 "label": "GitHub",
@@ -800,6 +846,7 @@
           },
           {
             "label": "Sigstore",
+            "description": "A project for signing, verifying, and protecting software artifacts and supply chains using keyless signing.",
             "children": [
               {
                 "label": "GitHub",
@@ -817,6 +864,7 @@
           },
           {
             "label": "OSPS",
+            "description": "The Open Source Project Security baseline — a set of security requirements and best practices for open-source projects.",
             "children": [
               {
                 "label": "GitHub",
@@ -834,6 +882,7 @@
           },
           {
             "label": "StackRox",
+            "description": "A Kubernetes-native security platform for vulnerability management, compliance, and runtime threat detection.",
             "children": [
               {
                 "label": "GitHub",
@@ -851,6 +900,7 @@
           },
           {
             "label": "Konflux",
+            "description": "A cloud-native CI/CD system for building, testing, and releasing applications with built-in supply chain security.",
             "children": [
               {
                 "label": "GitHub",
@@ -868,6 +918,7 @@
           },
           {
             "label": "SLSA",
+            "description": "Supply-chain Levels for Software Artifacts — a security framework for ensuring the integrity of software builds.",
             "children": [
               {
                 "label": "GitHub",
@@ -887,9 +938,11 @@
       },
       {
         "label": "Compliance, Policy & Sovereignty",
+        "description": "Projects addressing regulatory compliance, cyber policy, and digital sovereignty for open-source software.",
         "children": [
           {
             "label": "Gemara",
+            "description": "A compliance-as-code framework for automating regulatory and policy checks in software projects.",
             "children": [
               {
                 "label": "GitHub",
@@ -907,6 +960,7 @@
           },
           {
             "label": "OpenSSF Global Cyber Policy",
+            "description": "An OpenSSF working group tracking global cyber legislation and providing compliance guidance for open-source communities.",
             "children": [
               {
                 "label": "GitHub",
@@ -936,6 +990,7 @@
           },
           {
             "label": "ComplyTime",
+            "description": "A CLI tool for automating compliance assessments against security profiles and standards.",
             "children": [
               {
                 "label": "GitHub",
@@ -953,6 +1008,7 @@
           },
           {
             "label": "Eclipse Open Regulatory Compliance",
+            "description": "An Eclipse Foundation working group developing resources and tooling for EU Cyber Resilience Act compliance.",
             "children": [
               {
                 "label": "GitHub",
@@ -974,9 +1030,11 @@
           },
           {
             "label": "Digital Sovereignty",
+            "description": "Initiatives helping organizations assess and achieve digital sovereignty through open-source technologies.",
             "children": [
               {
                 "label": "Digital Sovereignty Readiness Assessment",
+                "description": "A tool to evaluate your organization's readiness for digital sovereignty requirements.",
                 "children": [
                   {
                     "label": "GitHub",
