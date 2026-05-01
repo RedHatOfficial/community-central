@@ -153,6 +153,19 @@
                 "url": "https://kubevirt.io/community/"
               }
             ]
+          },
+          {
+            "label": "Forklift",
+            "children": [
+              {
+                "label": "Docs",
+                "url": "https://kubev2v.github.io/forklift-documentation/documentation/index.html"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/kubev2v/forklift"
+              }
+            ]
           }
         ]
       },
