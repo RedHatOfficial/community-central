@@ -83,6 +83,10 @@ rh-card {
     &[open] > summary::before {
       content: '−'; /* Note: This is a true minus sign (U+2212) */
     }
+
+    .details-body {
+      padding-left: 1.5rem;
+    }
   }
 }
 
