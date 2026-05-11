@@ -9,6 +9,9 @@
             <h{{ d }} id="{{ node.label | slugify }}"">{{ node.label }}</h{{ d }}>
         </summary>
         <div class="details-body">
+        {% if node.description %}
+            <p class="project-description">{{ node.description }}</p>
+        {% endif %}
         {% set links_html = self::set_links(node=node) %}
         {% if links_html | trim | length > 0 %}
             <ul>
