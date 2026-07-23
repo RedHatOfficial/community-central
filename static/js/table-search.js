@@ -8,7 +8,7 @@ function searchTable() {
 
     clearInput.addEventListener('click', inputClear);
 
-    filter = input.value.toLowerCase();
+    const filter = input.value.toLowerCase();
 
     if (input.value !== '') {
         clearInput.removeAttribute('hidden');
@@ -45,7 +45,7 @@ function filterTable() {
     const table = document.querySelector('#project-table');
     const trs = table.querySelectorAll('tr');
 
-    filter = input.value.toLowerCase();
+    const filter = input.value.toLowerCase();
 
     trs.forEach((tr) => {
         let tds = tr.querySelectorAll('td');
