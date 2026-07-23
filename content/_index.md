@@ -2,7 +2,7 @@
 title: Community Central
 ---
 
-## Open Source and AI Program Office (OSAIPO)</h2>
+## Open Source and AI Program Office (OSAIPO)
 <div class="grid sm-two-columns md-two-columns top-cards">
     <div>
         <a href="https://www.redhat.com/en/about/our-community-contributions" class="button-link primary">Learn more about the Red Hat Open Source and AI Program Office</a>
